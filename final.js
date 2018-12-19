@@ -22,7 +22,7 @@ function draw(){
   var x, y;
   for (y=0; y<100; y = y + 10){
     for (x=0; x<100; x = x + 10){
-    if (50 <= y && (x+y) == 90){
+    if ((x+y)%20 == 0 && x%20!=0 && y%20!=0){
       ctx.fillRect(x,y,10,10);
       }
     }

@@ -2,12 +2,24 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>自己紹介</title>
+    <title>最終課題</title>
     <script src="final.js"></script>
   </head>
 
   <body>
-    <input type="button" value="今日の運勢" onclick="uranai();">
-    <canvas id="canvas" width="200" height="200">四角形を描画する領域</canvas>
+    <input type="button" value="今日の運勢" onclick="uranai();"><br>
+    <canvas id="canvas" width="200" height="200">四角形を描画する領域</canvas><br>
+    <h3>出かける時間</h3>
+    朝<input type="radio" name="time" id="asa" value="朝"><br>
+    昼<input type="radio" name="time" id="hiru" value="昼"><br>
+    夜<input type="radio" name="time" id="yoru" value="夜"><br>
 
+    <h3>一緒に出かける人</h3>
+    男友達<input type="radio" name="with" id="boyfreind" value="男友達"><br>
+    女友達<input type="radio" name="with" id="girlfreind" value="女友達"><br>
+    家族<input type="radio" name="with" id="family" value="家族"><br>
+    1人<input type="radio" name="with" id="only" value="1人"><br>
+    関係ない<input type="radio" name="with" id="nothing" value="関係ない"><br>
+
+    <input type="radio" name="place" id="school" value="学校"><br>
   </body>
