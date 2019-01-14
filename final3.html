@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>最終課題</title>
+    <script src="final.js"></script>
+  </head>
+
+<body>
+<input type="button" value="今日のラッキーカラー" onclick="color();"><br>
+<input type="button" value="今日のラッキーアイテム" onclick="item();"><br>
+ラッキーカラー<input type="text" id="color"><br>
+ラッキーアイテム<input type="text" id="item"><br>
+<input type="radio" id="male" name="gender">男
+<input type="radio" id="female" name="gender">女
+
+<p  class="size"><a href="final1.html" target="_blank">次の質問</a> </p>
+
+<h3>一緒に出かける人</h3>
+男友達<input type="radio" name="with" id="boyfriend"><br>
+女友達<input type="radio" name="with" id="girlfriend"><br>
+家族<input type="radio" name="with" id="family"><br>
+1人<input type="radio" name="with" id="only"><br>
+関係ない<input type="radio" name="with" id="nothing"><br>
+
+
+<h3>目的</h3>
+学校<input type="radio" name="way" id="school" value="学校"><br>
+デート<input type="radio" name="way" id="date" value="デート" onclick="question();"></br>
+仕事<input type="radio" name="way" id="job" value="仕事" onclick="question();"></br>
+スポーツ<input type="radio" name="way" id="sport" value="スポーツ" onclick="question();"></br>
+ショッピング<input type="radio" name="way" id="shop" value="ショッピング" onclick="question();"></br>
+遊園地<input type="radio" name="way" id="amusement" value="遊園地" onclick="question();"></br>
+博物館、美術館<input type="radio" name="way" id="museaum" value="博物館、美術館" onclick="question();"></br>
+旅行<input type="radio" name="way" id="trip" value="旅行" onclick="question();"></br>
+
+<input type="button" value="検索" onclick="question();">
+
+<span id="alert">画像を表示する</span><br>
+
+<a href="final.html" target="_self">戻る</a>
+
+</body>
