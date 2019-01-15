@@ -28,37 +28,30 @@ function item(){
 
 
 
-function question(){
-var a = document.getElementById('color');
-var b = document.getElementById('item');
-var c = document.getElementsByName('gender');
-var d = document.getElementsByName('with');
-var e = document.getElementsByName('way');
+function search(){
+var a = document.question.color.value;
+var b = document.question.item.value;
+var c = document.question.with.value;
+var d = document.question.way.value;
 
-var f = document.getElementById('male');
-var g = document.getElementById('female');
-
-var h =document.getElementById('boyfriend');
-var i =document.getElementById('girlfriend');
-var j =document.getElementById('family');
-var k =document.getElementById('only');
-var l =document.getElementById('nothing');
-
-var m =document.getElementById('school');
-var n =document.getElementById('date');
-var o =document.getElementById('job');
-var p =document.getElementById('sport');
-var q =document.getElementById('shop');
-var r =document.getElementById('amusement');
-var s =document.getElementById('museaum');
-var t =document.getElementById('trip');
-
-if(f == true){
-  if(h == true){
-    if(m == true || o  == true || q == true){
-      alert ("やったー")
-      document.getElemetnById('alert').innerHTML = '<img src= "img.png" alt="photo-1.jpg">';
-      }
+  if (c == 1 || c == 3 || c == 4 || c == 5) {
+    if(d == 1 || d == 3){
+      alert("ラッキーカラーは" + a + "、アイテムは" + b)
+      alert("パーカーとかがいいと思うよ！色は" + a + "のね")
     }
+    if (d == 4 || d == 5 || d == 6) {
+      alert("ラッキーカラーは" + a + "、アイテムは" + b)
+      alert("動こきやすい服装がいいよね。邪魔かもだけど" + b + "もあるとグッドかな")
+    }
+    if (d ==7 || d == 8) {
+      alert("ラッキーカラーは" + a + "、アイテムは" + b)
+      alert("落ち着いた格好がいいと思います。")
+    }else {
+      alert("ラッキーカラーは" + a + "、アイテムは" + b)
+      alert("アイディアがないのでこちらへ" + "https://clubd.co.jp/wp/post-20228");
+    }
+  }else {
+    alert("ラッキーカラーは" + a + "、アイテムは" + b)
+    alert("勝負の日ですね！派手すぎないようにするのと後は今日のプランによって決めていきましょう")
   }
 }

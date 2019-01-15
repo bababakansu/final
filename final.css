@@ -1,31 +1,4 @@
-p.size {font weight="900"}
-
-@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
-
-body{
-    color: black;
-    background-color: white;
-}
-
-div#clock_frame{
-  width: 100%;
-}
-
-span
-{
-  display: block;
-  float: right;
-  width: 85%;
-  font-family: 'Oleo Script Swash Caps', cursive;
-}
-
-span#clock_date{
-  text-align: right;
-  font-size: 0.5em;
-  padding-right: 0.5em;
-}
-
-span#clock_time
-{
-  font-size: 2em;
+p.color1{
+  color: #000000
+  background-color: #00FFFF
 }
